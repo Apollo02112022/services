@@ -1,8 +1,8 @@
 export class Cocktail {
    
-    name: string | undefined = "a"; 
-    price: string | undefined = "b";
-    picture: string | undefined = "c"
+    name: string | undefined; 
+    price: string | undefined;
+    picture: string | undefined
 
     constructor(name?: string | undefined, price?: string | undefined, picture?: string | undefined) {
         this.name = name,
